@@ -1,10 +1,9 @@
 import "./App.css";
-import travel_01 from "./assets/travel-01.jpg";
+import Favor from "./assets/Hartavor.jpg";
 import travel_02 from "./assets/travel-02.jpg";
 import travel_03 from "./assets/travel-03.jpg";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
+import {Hero} from "./components/Hero/Hero";
+import {Slider} from "./components/Slider/Slider";
 import {BasicExample} from "./components/Navbar/HeaderNavBar";
 
 function App() {
@@ -17,8 +16,7 @@ function App() {
   return (
     <div className="App">
       <BasicExample/>
-      {/*<Navbar navbarLinks={navbarLinks} />*/}
-      <Hero imageSrc={travel_01} />
+      <Hero imageSrc={Favor} />
       <Slider
         imageSrc={travel_02}
         title={"Be an explorer."}
