@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 .hero {
   position: relative;
   width: 100%;
@@ -11,11 +12,15 @@
   position: absolute;
 }
 
-.hero__title {
+.hero__text-content {
   position: absolute;
-  bottom: 15%;
-  right: 10%;
+  bottom: 50%;
+  right: 35%;
   color: white;
   font-size: 4rem;
   padding: 15px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
 }
