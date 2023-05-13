@@ -18,16 +18,17 @@ export function BasicExample() {
                         <Nav.Link href="#home">О нас</Nav.Link>
 
                         <NavDropdown title="Услуги" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2" onClick={(e) => console.log(
+                            <NavDropdown.Item href="#accident">Юридические услуги при ДТП</NavDropdown.Item>
+                            <NavDropdown.Item href="#administrative_disputes" onClick={(e) => console.log(
                                 'another'
                             )}>
-                                Another action
+                                Административно-правовые споры
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Item href="#organizations_support">Cопровождение организаций</NavDropdown.Item>
+                            <NavDropdown.Item href="#land_law">Земельные споры</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">
-                                Separated link
+                                Бесплатная консультация
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#link">Контакты</Nav.Link>

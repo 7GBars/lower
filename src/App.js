@@ -17,7 +17,7 @@ function App() {
     />
   });
   return (
-    <div className="App">
+    <div className="App home">
       <BasicExample/>
       <Hero imageSrc={Favor} />
       {servicesJSX}
