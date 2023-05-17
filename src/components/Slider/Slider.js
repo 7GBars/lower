@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slider.css";
 import { useInView } from "react-intersection-observer";
-import {ButtonSuccess} from "../elements/button/ButtonSuccess";
+import {AboutModal} from "../Modal/Modal";
 
 export const Slider = ({ imageSrc, title, subtitle, flipped, id }) => {
   const { ref, inView } = useInView({
@@ -16,7 +16,7 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id }) => {
           <div className="slider__content">
             <h1 className="slider__title">{title}</h1>
             <p>{subtitle}</p>
-            <ButtonSuccess text={'Узнать больше'}/>
+            <AboutModal/>
           </div>
         </>
       );
@@ -26,7 +26,7 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id }) => {
           <div className="slider__content" id={id}>
             <h1 className="slider__title">{title}</h1>
             <p>{subtitle}</p>
-            <ButtonSuccess text={'Узнать больше'}/>
+            <AboutModal/>
           </div>
           <img src={imageSrc} alt="Travel" className="slider__image" />
 
