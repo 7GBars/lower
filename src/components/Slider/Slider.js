@@ -8,13 +8,14 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id, additionalInfo,
     /* Optional options */
     threshold: 0.4,
   });
+  console.log(id)
   const renderContent = () => {
     if (!flipped) {
       return (
         <>
           <img id={id} src={imageSrc} alt="Travel" className="slider__image" />
-          <div className="slider__content" >
-            <h1 className="slider__title" id={id}>{title}</h1>
+          <div className="slider__content" id={id}>
+            <h1 className="slider__title" >{title}</h1>
             <p>{subtitle}</p>
             <AboutModal additionalInfo={additionalInfo} isListInfo={isListInfo} />
           </div>
@@ -24,7 +25,7 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id, additionalInfo,
       return (
         <>
           <div className="slider__content" >
-            <h1 className="slider__title" >{title}</h1>
+            <h1 className="slider__title scrolledSection" id={id}>{title}</h1>
             <p>{subtitle}</p>
             <AboutModal additionalInfo={additionalInfo} isListInfo={isListInfo} />
           </div>

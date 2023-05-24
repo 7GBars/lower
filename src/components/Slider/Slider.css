@@ -42,3 +42,7 @@
     width: 100%;
   }
 }
+
+.scrolledSection {
+  scroll-margin-top: 300px;
+}
