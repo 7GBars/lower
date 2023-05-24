@@ -14,6 +14,8 @@ function App() {
       title={t.title}
       subtitle={t.subtitle}
       flipped={t.flipped}
+      additionalInfo={t.additionalInfo}
+      isListInfo={t.isListInfo}
     />
   });
   return (

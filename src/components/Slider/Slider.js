@@ -3,7 +3,7 @@ import "./Slider.css";
 import { useInView } from "react-intersection-observer";
 import {AboutModal} from "../Modal/Modal";
 
-export const Slider = ({ imageSrc, title, subtitle, flipped, id }) => {
+export const Slider = ({ imageSrc, title, subtitle, flipped, id, additionalInfo, isListInfo }) => {
   const { ref, inView } = useInView({
     /* Optional options */
     threshold: 0.4,
@@ -16,7 +16,7 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id }) => {
           <div className="slider__content">
             <h1 className="slider__title">{title}</h1>
             <p>{subtitle}</p>
-            <AboutModal/>
+            <AboutModal additionalInfo={additionalInfo} isListInfo={isListInfo} />
           </div>
         </>
       );
@@ -26,7 +26,7 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id }) => {
           <div className="slider__content" id={id}>
             <h1 className="slider__title">{title}</h1>
             <p>{subtitle}</p>
-            <AboutModal/>
+            <AboutModal additionalInfo={additionalInfo} isListInfo={isListInfo} />
           </div>
           <img src={imageSrc} alt="Travel" className="slider__image" />
 
