@@ -34,7 +34,7 @@ p {
 
 .hero__menu {
   position: absolute;
-  top: 20%;
+  top: 0;
   left: -100vw;
   width: 100vw;
   height: min-content;
