@@ -28,3 +28,38 @@ p {
   font-size: 1rem;
   font-family: 'Raleway', sans-serif;
 }
+
+
+
+
+.hero__menu {
+  position: absolute;
+  top: 20%;
+  left: -100vw;
+  width: 100vw;
+  height: min-content;
+  background: white;
+  padding: 20px;
+  transition: left 0.3s ease-in-out;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+.menu-open {
+  left: 0;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 2rem;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: black
+}
