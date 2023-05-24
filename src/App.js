@@ -3,8 +3,9 @@ import Favor from "./_assets/Hartavor.jpg";
 
 import {Hero} from "./components/Hero/Hero";
 import {Slider} from "./components/Slider/Slider";
-import {BasicExample} from "./components/Navbar/HeaderNavBar";
+import {Header} from "./components/Navbar/HeaderNavBar";
 import {services} from "./_serviceInfo/serviceInfo";
+import ContactForm from "./components/contactForm/ContactFrom";
 
 function App() {
   const servicesJSX = services.map(t => {
@@ -20,9 +21,10 @@ function App() {
   });
   return (
     <div className="App home">
-      <BasicExample/>
+      <Header/>
       <Hero imageSrc={Favor} />
       {servicesJSX}
+      <ContactForm/>
     </div>
   );
 }

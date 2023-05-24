@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './header.css';
 
-export function BasicExample() {
+export function Header() {
     return (
         <Navbar bg="light" expand="lg" collapseOnSelect={true}>
 
@@ -31,7 +31,11 @@ export function BasicExample() {
                                 Бесплатная консультация
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#link">Контакты</Nav.Link>
+                        <Nav.Link href="#contact-form">Контакты</Nav.Link>
+                        <Nav className="ms-auto" id="navbar">
+                            <Nav.Link id={'cursor-none'}>г.Москва: ул.Маршала Прошлякова 30</Nav.Link>
+                            <div className={'number'}>+7 777 77 777 77</div>
+                        </Nav>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -39,3 +43,4 @@ export function BasicExample() {
     );
 }
 
+//как разместить <Navbar.Brand className="ml-auto" >+7 777 77 777 89</Navbar.Brand > справа ??

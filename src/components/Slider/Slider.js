@@ -13,8 +13,8 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id, additionalInfo,
       return (
         <>
           <img id={id} src={imageSrc} alt="Travel" className="slider__image" />
-          <div className="slider__content">
-            <h1 className="slider__title">{title}</h1>
+          <div className="slider__content" >
+            <h1 className="slider__title" id={id}>{title}</h1>
             <p>{subtitle}</p>
             <AboutModal additionalInfo={additionalInfo} isListInfo={isListInfo} />
           </div>
@@ -24,11 +24,11 @@ export const Slider = ({ imageSrc, title, subtitle, flipped, id, additionalInfo,
       return (
         <>
           <div className="slider__content" >
-            <h1 className="slider__title">{title}</h1>
+            <h1 className="slider__title" id={id}>{title}</h1>
             <p>{subtitle}</p>
             <AboutModal additionalInfo={additionalInfo} isListInfo={isListInfo} />
           </div>
-          <img id={id} src={imageSrc} alt="Travel" className="slider__image" />
+          <img  src={imageSrc} alt="Travel" className="slider__image" />
         </>
       );
     }

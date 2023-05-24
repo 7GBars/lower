@@ -1,5 +1,12 @@
 .nav-link {
     color: black;
 }
+.number {
+    font-size: 25px;
+    color: brown;
+    text-align: end;
+}
+
+
 
 a { color: green!important;}
