@@ -20,10 +20,11 @@ export const Hero = ({ imageSrc }) => {
           <b>Ваша победа – наша профессия!</b> <br/>
           Это главный девиз нашей компании при оказании юридической помощи. Мы не просто говорим, а тщательно работаем над каждым вопросом.
         </p>
-        <div className={`hero__menu ${showMenu ? 'menu-open' : ''}`}>
-          <button className="close-button" onClick={(e) => setShowMenu(false)}>x</button>
-          <CompanyInfo/>
-        </div>
+
+      </div>
+      <div className={`hero__menu ${showMenu ? 'menu-open' : ''}`}>
+        <button className="close-button" onClick={(e) => setShowMenu(false)}>x</button>
+        <CompanyInfo/>
       </div>
     </div>
   );

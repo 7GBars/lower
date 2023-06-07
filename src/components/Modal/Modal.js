@@ -26,8 +26,8 @@ export function AboutModal({additionalInfo, isListInfo}) {
     <div>
       <ButtonSuccess text={'Узнать больше'} handler={handleButtonClick}/>
 
-      <Modal isOpen={isModalOpen} onRequestClose={handleCloseModal}>
-
+      <Modal isOpen={isModalOpen} onRequestClose={handleCloseModal} >
+   {/*todo inset: 10px; border-radius: 10px; шапку фиксированой и добавить крестик для закрытия скролл только для контента*/}
         <h2>Перечень услуг</h2>
         <p>Тут будет дополнительный текст</p>
         <ul>
