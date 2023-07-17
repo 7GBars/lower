@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:ital,wght@1,100&family=Tektur:wght@400;500&display=swap');
 
 .hero {
   position: relative;
@@ -14,7 +15,6 @@
 
 .hero__text-content {
   position: absolute;
-  bottom: 50%;
   right: 35%;
   color: white;
   font-size: 4rem;
@@ -22,7 +22,7 @@
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Tektur', cursive;
 }
 p {
   font-size: 1rem;
