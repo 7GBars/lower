@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lower/static/css/main.a77725d6.chunk.css",
-    "main.js": "/lower/static/js/main.b2e4dd05.chunk.js",
-    "main.js.map": "/lower/static/js/main.b2e4dd05.chunk.js.map",
-    "runtime-main.js": "/lower/static/js/runtime-main.5821b667.js",
-    "runtime-main.js.map": "/lower/static/js/runtime-main.5821b667.js.map",
+    "main.css": "/lower/static/css/main.f2e5faee.chunk.css",
+    "main.js": "/lower/static/js/main.6e495e31.chunk.js",
+    "main.js.map": "/lower/static/js/main.6e495e31.chunk.js.map",
+    "runtime-main.js": "/lower/static/js/runtime-main.4f671f9e.js",
+    "runtime-main.js.map": "/lower/static/js/runtime-main.4f671f9e.js.map",
     "static/css/2.89e45307.chunk.css": "/lower/static/css/2.89e45307.chunk.css",
-    "static/js/2.5d381841.chunk.js": "/lower/static/js/2.5d381841.chunk.js",
-    "static/js/2.5d381841.chunk.js.map": "/lower/static/js/2.5d381841.chunk.js.map",
-    "static/js/3.5506e00f.chunk.js": "/lower/static/js/3.5506e00f.chunk.js",
-    "static/js/3.5506e00f.chunk.js.map": "/lower/static/js/3.5506e00f.chunk.js.map",
+    "static/js/2.9133034d.chunk.js": "/lower/static/js/2.9133034d.chunk.js",
+    "static/js/2.9133034d.chunk.js.map": "/lower/static/js/2.9133034d.chunk.js.map",
+    "static/js/3.cff4baf8.chunk.js": "/lower/static/js/3.cff4baf8.chunk.js",
+    "static/js/3.cff4baf8.chunk.js.map": "/lower/static/js/3.cff4baf8.chunk.js.map",
     "index.html": "/lower/index.html",
     "static/css/2.89e45307.chunk.css.map": "/lower/static/css/2.89e45307.chunk.css.map",
-    "static/css/main.a77725d6.chunk.css.map": "/lower/static/css/main.a77725d6.chunk.css.map",
-    "static/js/2.5d381841.chunk.js.LICENSE.txt": "/lower/static/js/2.5d381841.chunk.js.LICENSE.txt",
+    "static/css/main.f2e5faee.chunk.css.map": "/lower/static/css/main.f2e5faee.chunk.css.map",
+    "static/js/2.9133034d.chunk.js.LICENSE.txt": "/lower/static/js/2.9133034d.chunk.js.LICENSE.txt",
     "static/media/Hartavor.114b2518.jpg": "/lower/static/media/Hartavor.114b2518.jpg",
     "static/media/service0.4c1e4b67.jpg": "/lower/static/media/service0.4c1e4b67.jpg",
     "static/media/service1.4401197b.jpg": "/lower/static/media/service1.4401197b.jpg",
@@ -21,10 +21,10 @@
     "static/media/servise3.05011da7.jpg": "/lower/static/media/servise3.05011da7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5821b667.js",
+    "static/js/runtime-main.4f671f9e.js",
     "static/css/2.89e45307.chunk.css",
-    "static/js/2.5d381841.chunk.js",
-    "static/css/main.a77725d6.chunk.css",
-    "static/js/main.b2e4dd05.chunk.js"
+    "static/js/2.9133034d.chunk.js",
+    "static/css/main.f2e5faee.chunk.css",
+    "static/js/main.6e495e31.chunk.js"
   ]
 }
