@@ -22,7 +22,7 @@ export function Header() {
                             <NavDropdown.Item href="#administrative_disputes" onClick={(e) => console.log(
                                 'another'
                             )}>
-                                Административно-правовые споры
+                                Гражданско-правовая помощь
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#organizations_support">Cопровождение организаций</NavDropdown.Item>
                             <NavDropdown.Item href="#land_law">Земельные споры</NavDropdown.Item>
