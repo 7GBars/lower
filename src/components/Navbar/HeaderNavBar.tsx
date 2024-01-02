@@ -10,7 +10,9 @@ export function Header() {
         <Navbar bg="light" expand="lg" collapseOnSelect={true}>
 
             <Container>
-                <Navbar.Brand href="#home" >ФАВОР</Navbar.Brand >
+                <Navbar.Brand href="#home" >
+                    ФАВОР <p className={'header-title'}>юридический центр</p>
+                </Navbar.Brand >
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" role={undefined}>
 
@@ -33,8 +35,8 @@ export function Header() {
                         </NavDropdown>
                         <Nav.Link href="#contact-form">Контакты</Nav.Link>
                         <Nav className="ms-auto" id="navbar">
-                            <Nav.Link id={'cursor-none'}>г.Москва: ул.Маршала Прошлякова 30</Nav.Link>
-                            <div className={'number'}>+7 777 77 777 77</div>
+                            <Nav.Link id={'cursor-none'}>г.Москва: ул.Маршала Прошлякова 30,</Nav.Link>
+                            <div className={'number'}>+7 993 246 03 89</div>
                         </Nav>
                     </Nav>
                 </Navbar.Collapse>

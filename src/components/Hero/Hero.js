@@ -15,7 +15,7 @@ export const Hero = ({ imageSrc }) => {
       <img src={imageSrc} alt="Travel" className="hero__image" />
       <div className="hero__text-content">
         <ButtonSuccess text={'О нас'} handler={handleButtonClick}/>
-        <h1 className="hero__title">Ваш фаворит в делах</h1>
+        <h1 className="hero__title">Юридический центр ФАВОР - ваш фаворит в делах</h1>
         <p>
           <b>Ваша победа – наша профессия!</b> <br/>
           Это главный девиз нашей компании при оказании юридической помощи. Мы не просто говорим, а тщательно работаем над каждым вопросом.

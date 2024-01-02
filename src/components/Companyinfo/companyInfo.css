@@ -1,3 +1,11 @@
 .company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
+    .company-info__text--cursive {
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
 }

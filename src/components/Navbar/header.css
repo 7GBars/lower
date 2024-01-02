@@ -2,9 +2,14 @@
     color: black;
 }
 .number {
+    margin: 0 10px;
     font-size: 25px;
     color: brown;
     text-align: end;
+}
+.header-title {
+    color: #005fa3;
+    font-family: "Montserrat", sans-serif
 }
 
 
