@@ -4,7 +4,7 @@ import {ButtonSuccess} from "../elements/button/ButtonSuccess";
 
 import './modal.css';
 
-export function AboutModal({additionalInfo, isListInfo}) {
+export function AboutModal({additionalInfo, isListInfo, mainInfo, mainTextInfo}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   function handleButtonClick() {
@@ -18,9 +18,9 @@ export function AboutModal({additionalInfo, isListInfo}) {
   const renderList = () => {
 
     if (!isListInfo) {
-      return [additionalInfo]
+      return [mainInfo]
     }  else {
-      return additionalInfo.map(i => <li>{i}</li>)
+      return mainInfo.map(i => <li>{i}</li>)
     }
   }
   const closeModal = (e) => setIsModalOpen(false);
@@ -30,8 +30,10 @@ export function AboutModal({additionalInfo, isListInfo}) {
       <Modal isOpen={isModalOpen} onRequestClose={handleCloseModal} >
    {/*todo inset: 10px; border-radius: 10px; шапку фиксированой и добавить крестик для закрытия скролл только для контента*/}
         <h2>Перечень услуг</h2>
-        <p>Тут будет дополнительный текст</p>
+        <p>{additionalInfo}</p>
+        <b>{mainTextInfo}</b>
         <ul>
+          {/*<li>{mainTextInfo}</li>*/}
           <button className="close-button" onClick={closeModal}>X</button>
           {renderList()}
         </ul>
