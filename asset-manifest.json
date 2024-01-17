@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/lower/static/css/main.f2e5faee.chunk.css",
-    "main.js": "/lower/static/js/main.ac811579.chunk.js",
-    "main.js.map": "/lower/static/js/main.ac811579.chunk.js.map",
-    "runtime-main.js": "/lower/static/js/runtime-main.4f671f9e.js",
-    "runtime-main.js.map": "/lower/static/js/runtime-main.4f671f9e.js.map",
-    "static/css/2.89e45307.chunk.css": "/lower/static/css/2.89e45307.chunk.css",
-    "static/js/2.9133034d.chunk.js": "/lower/static/js/2.9133034d.chunk.js",
-    "static/js/2.9133034d.chunk.js.map": "/lower/static/js/2.9133034d.chunk.js.map",
-    "static/js/3.cff4baf8.chunk.js": "/lower/static/js/3.cff4baf8.chunk.js",
-    "static/js/3.cff4baf8.chunk.js.map": "/lower/static/js/3.cff4baf8.chunk.js.map",
+    "main.css": "/lower/static/css/main.01cf3e3a.css",
+    "main.js": "/lower/static/js/main.f4bc864c.js",
+    "static/js/787.ea37353a.chunk.js": "/lower/static/js/787.ea37353a.chunk.js",
+    "static/media/service0.jpg": "/lower/static/media/service0.4c1e4b67b6ba668f61f9.jpg",
+    "static/media/Hartavor.jpg": "/lower/static/media/Hartavor.114b251831131f93d03d.jpg",
+    "static/media/servise3.jpg": "/lower/static/media/servise3.05011da7d95c4452fb50.jpg",
+    "static/media/service1.jpg": "/lower/static/media/service1.4401197b2f5b6e3ff3a9.jpg",
+    "static/media/service2.jpg": "/lower/static/media/service2.dc8d5fa79a206560e4ef.jpg",
+    "static/media/service4.jpg": "/lower/static/media/service4.28fafa4f7c7d1d5757d7.jpg",
     "index.html": "/lower/index.html",
-    "static/css/2.89e45307.chunk.css.map": "/lower/static/css/2.89e45307.chunk.css.map",
-    "static/css/main.f2e5faee.chunk.css.map": "/lower/static/css/main.f2e5faee.chunk.css.map",
-    "static/js/2.9133034d.chunk.js.LICENSE.txt": "/lower/static/js/2.9133034d.chunk.js.LICENSE.txt",
-    "static/media/Hartavor.114b2518.jpg": "/lower/static/media/Hartavor.114b2518.jpg",
-    "static/media/service0.4c1e4b67.jpg": "/lower/static/media/service0.4c1e4b67.jpg",
-    "static/media/service1.4401197b.jpg": "/lower/static/media/service1.4401197b.jpg",
-    "static/media/service2.dc8d5fa7.jpg": "/lower/static/media/service2.dc8d5fa7.jpg",
-    "static/media/servise3.05011da7.jpg": "/lower/static/media/servise3.05011da7.jpg"
+    "main.01cf3e3a.css.map": "/lower/static/css/main.01cf3e3a.css.map",
+    "main.f4bc864c.js.map": "/lower/static/js/main.f4bc864c.js.map",
+    "787.ea37353a.chunk.js.map": "/lower/static/js/787.ea37353a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f671f9e.js",
-    "static/css/2.89e45307.chunk.css",
-    "static/js/2.9133034d.chunk.js",
-    "static/css/main.f2e5faee.chunk.css",
-    "static/js/main.ac811579.chunk.js"
+    "static/css/main.01cf3e3a.css",
+    "static/js/main.f4bc864c.js"
   ]
 }
